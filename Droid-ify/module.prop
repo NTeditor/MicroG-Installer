@@ -4,4 +4,4 @@ version=1.1
 versionCode=00011
 author=NTeditor
 description=MicroG Installer
-#updateJson=<url> (optional)
+updateJson=https://raw.githubusercontent.com/NTeditor/MicroG-Installer/refs/heads/master/update/update-Droid-ify.json
