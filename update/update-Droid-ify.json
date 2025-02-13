@@ -1,6 +1,6 @@
 {
-    "version": v2.0,
+    "version": "v2.0",
     "versionCode": 10000,
-    "zipUrl": https://github.com/NTeditor/MicroG-Installer/raw/refs/heads/master/update/Droid-ify.zip,
-    "changelog": https://github.com/NTeditor/MicroG-Installer/raw/refs/heads/master/update/update-Droid-ify.json
+    "zipUrl": "https://github.com/NTeditor/MicroG-Installer/raw/refs/heads/master/update/Droid-ify.zip",
+    "changelog": "https://github.com/NTeditor/MicroG-Installer/raw/refs/heads/master/update/update-Droid-ify.json"
 }
