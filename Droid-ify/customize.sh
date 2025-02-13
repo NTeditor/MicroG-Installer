@@ -10,5 +10,8 @@ chmod 644 $MODPATH/system/product/overlay/microGOverlay/microGOverlay.apk
 chmod 644 $MODPATH/system/product/overlay/PlayStoreOverlay/PlayStoreOverlay.apk
 chmod 644 $MODPATH/system/framework/com.google.android.maps.jar
 
+chmod 755 $MODPATH/reboot_installer.sh
+chmod 755 $MODPATH/action.sh
+
 
 ln -s $MODPATH/reboot_installer.sh $MODPATH/service.sh
