@@ -1,6 +1,6 @@
 MODDIR=/data/adb/modules/nteditor_microg
 
-until [ "$(getprop sys.boot_completed)" = "1" ]; do
+until [ "$(getprop sys.boot_completed)" = "0" ]; do
     sleep 1
 done
 
