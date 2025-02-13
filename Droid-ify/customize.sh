@@ -10,8 +10,9 @@ chmod 644 $MODPATH/system/product/overlay/microGOverlay/microGOverlay.apk
 chmod 644 $MODPATH/system/product/overlay/PlayStoreOverlay/PlayStoreOverlay.apk
 chmod 644 $MODPATH/system/framework/com.google.android.maps.jar
 
-chmod 755 $MODPATH/reboot_installer.sh
+su -c pm install $MODPATH/system/priv-app/microGServices/microGServices.apk
+su -c pm install $MODPATH/system/priv-app/microGCompanion/microGCompanion.apk
+su -c pm install $MODPATH/system/priv-app/Droid-ify/Droid-ify.apk
+su -c pm install --force-sdk $MODPATH/system/app/ServicesFrameworkProxy/ServicesFrameworkProxy.apk
+
 chmod 755 $MODPATH/action.sh
-
-
-ln -s $MODPATH/reboot_installer.sh $MODPATH/service.sh
