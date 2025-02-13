@@ -1,0 +1,6 @@
+{
+    "version": string,
+    "versionCode": int,
+    "zipUrl": url,
+    "changelog": url
+}
