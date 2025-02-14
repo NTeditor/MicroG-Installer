@@ -1,3 +1,12 @@
+MODPATH = /data/adb/modules/nteditor_microg
+
+resetprop -w sys.boot_completed 0
+
+su -c pm install $MODPATH/system/priv-app/microGServices/microGServices.apk >$MODPATH/log.txt
+su -c pm install $MODPATH/system/priv-app/microGCompanion/microGCompanion.apk >$MODPATH/log.txt
+su -c pm install $MODPATH/system/priv-app/Droid-ify/Droid-ify.apk >$MODPATH/log.txt
+su -c pm install --bypass-low-target-sdk-block $MODPATH/system/app/ServicesFrameworkProxy/ServicesFrameworkProxy.apk >$MODPATH/log.txt
+
 su -c pm grant com.looker.droidify "android.permission.ACCESS_NETWORK_STATE"
 su -c pm grant com.looker.droidify "android.permission.ENFORCE_UPDATE_OWNERSHIP"
 su -c pm grant com.looker.droidify "android.permission.FOREGROUND_SERVICE_DATA_SYNC"
@@ -6,7 +15,7 @@ su -c pm grant com.looker.droidify "android.permission.RECEIVE_BOOT_COMPLETED"
 su -c pm grant com.looker.droidify "android.permission.REQUEST_DELETE_PACKAGES"
 su -c pm grant com.looker.droidify "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"
 su -c pm grant com.looker.droidify "android.permission.RUN_USER_INITIATED_JOBS"
-su -c pm grant com.looker.droidify "aandroid.permission.UPDATE_PACKAGES_WITHOUT_USER_ACTION"
+su -c pm grant com.looker.droidify "android.permission.UPDATE_PACKAGES_WITHOUT_USER_ACTION"
 su -c pm grant com.looker.droidify "android.permission.WAKE_LOCK"
 su -c pm grant com.looker.droidify "android.permission.REQUEST_INSTALL_PACKAGES"
 su -c pm grant com.looker.droidify "android.permission.POST_NOTIFICATIONS"
@@ -51,3 +60,5 @@ su -c pm grant com.google.android.gms "android.permission.WATCH_APPOPS"
 su -c pm grant com.google.android.gms "android.permission.WRITE_EXTERNAL_STORAGE"
 
 su -c pm grant com.google.android.gsf "android.permission.POST_NOTIFICATIONS"
+
+su -c rm -r $MODPATH/service.sh >$MODPATH/log.txt
