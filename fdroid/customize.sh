@@ -13,5 +13,7 @@ set_perm $MODPATH/system/framework/com.google.android.maps.jar 0 0 0644
 
 set_perm $MODPATH/service.sh 0 0 0755
 
-
+set_perm $MODPATH/system/priv-app/F-Droid/F-Droid.apk 0 0 0644
+set_perm $MODPATH/system/priv-app/F-DroidPrivilegedExtension/F-DroidPrivilegedExtension.apk 0 0 0644
+set_perm $MODPATH/system/etc/permissions/permissions_org.fdroid.fdroid.privileged.xml 0 0 0644
 
