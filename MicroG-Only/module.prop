@@ -1,7 +1,7 @@
 id=nteditor_microg
 name=MicroG Services
 version=1.1
-versionCode=00011
+versionCode=11000
 author=NTeditor
-description=Only MicroG 
-updateJson=https://raw.githubusercontent.com/NTeditor/MicroG-Installer/refs/heads/master/update/update-MicroG.json
+description=Только microG
+updateJson=https://raw.githubusercontent.com/NTeditor/MicroG-Installer/refs/heads/master/update/update-Droid-ify.json

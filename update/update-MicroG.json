@@ -1,6 +1,6 @@
 {
-    "version": "v2.0",
-    "versionCode": 10000,
+    "version": "v1.1",
+    "versionCode": 11000,
     "zipUrl": "https://github.com/NTeditor/MicroG-Installer/raw/refs/heads/master/update/MicroG-Only.zip",
     "changelog": "https://raw.githubusercontent.com/NTeditor/MicroG-Installer/refs/heads/master/update/update-MicroG.json"
 }

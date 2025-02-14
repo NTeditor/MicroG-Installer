@@ -45,4 +45,19 @@
 	<exception package="com.google.android.gsf">
         <permission name="android.permission.POST_NOTIFICATIONS" fixed="false"/>
     </exception>
+	
+	<exception package="com.looker.droidify">
+        <permission name="android.permission.ACCESS_NETWORK_STATE" fixed="false"/>
+		<permission name="android.permission.ENFORCE_UPDATE_OWNERSHIP" fixed="false"/>
+		<permission name="android.permission.FOREGROUND_SERVICE_DATA_SYNC" fixed="false"/>
+		<permission name="android.permission.INTERNET" fixed="false"/>
+		<permission name="android.permission.RECEIVE_BOOT_COMPLETED" fixed="false"/>
+		<permission name="android.permission.REQUEST_DELETE_PACKAGES" fixed="false"/>
+		<permission name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" fixed="false"/>
+		<permission name="android.permission.RUN_USER_INITIATED_JOBS" fixed="false"/>
+		<permission name="aandroid.permission.UPDATE_PACKAGES_WITHOUT_USER_ACTION" fixed="false"/>
+		<permission name="android.permission.WAKE_LOCK" fixed="false"/>
+		<permission name="android.permission.REQUEST_INSTALL_PACKAGES" fixed="false"/>
+		<permission name="android.permission.POST_NOTIFICATIONS" fixed="false"/>
+    </exception>
 </exceptions>
