@@ -1,4 +1,4 @@
-ui_print "Установка разришений..."
+ui_print "- Установка разрешений..."
 
 set_perm $MODPATH/system/etc/default-permissions/microg-permissions.xml 0 0 0644
 set_perm $MODPATH/system/etc/permissions/com.google.android.maps.xml 0 0 0644
@@ -17,7 +17,11 @@ set_perm $MODPATH/system/framework/com.google.android.maps.jar 0 0 0 0 0644
 #su -c pm install $MODPATH/system/priv-app/Droid-ify/Droid-ify.apk
 #su -c pm install --bypass-low-target-sdk-block $MODPATH/system/app/ServicesFrameworkProxy/ServicesFrameworkProxy.apk
 
-set_perm $MODPATH/1_service.sh 0 0 0755
-ln -s $MODPATH/1_service.sh $MODPATH/service.sh
+set_perm $MODPATH/service.sh 0 0 0755
 
-#su -c rm -r /data/system/package_cache
+if [ -f /data/adb/modules/service_sleep.sh ]; then
+	rm -rf /data/adb/modules/service_sleep.sh
+fi
+
+
+
