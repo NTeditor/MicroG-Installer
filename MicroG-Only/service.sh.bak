@@ -1,5 +1,5 @@
 MODPATH="/data/adb/modules/nteditor_microg" # <-- путь к папке с модулем
-PROSYS=2 # <-- Если android <= 8 $MODPATH/system, если android => 9 $MODPATH/system/product
+APISH=2 # <-- Если android <= 8 $MODPATH/system, если android => 9 $MODPATH/system/product
 
 
 START="true" # <-- true при перезагрузке после установки модуля

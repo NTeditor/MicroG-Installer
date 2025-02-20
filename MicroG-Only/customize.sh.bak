@@ -77,7 +77,5 @@ set_perm $PROSYS/framework/com.google.android.maps.jar 0 0 0644
 
 set_perm $MODPATH/service.sh 0 0 0755
 
-# Сохранение пути в service.sh
-
 sed -i 's/PROSYS=".*"/PROSYS='$PROSYS'/1' "$MODPATH/service.sh"
 
