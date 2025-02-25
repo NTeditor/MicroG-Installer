@@ -1,7 +1,0 @@
-id=nteditor_microg
-name=MicroG Services
-version=1.1
-versionCode=11000
-author=NTeditor
-description=microG + F-Droid
-updateJson=https://raw.githubusercontent.com/NTeditor/MicroG-Installer/refs/heads/master/update/update-F-Droid.json
