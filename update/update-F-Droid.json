@@ -1,6 +1,6 @@
 {
     "version": "v1.1",
     "versionCode": 11000,
-    "zipUrl": "https://github.com/NTeditor/MicroG-Installer/releases/download/v1.1-pre-release-2/F-Droid.zip",
-    "changelog": ""
+    "zipUrl": "https://github.com/NTeditor/MicroG-Installer/releases/latest/download/F-Droid.zip",
+    "changelog": "https://github.com/NTeditor/MicroG-Installer/raw/refs/heads/master/update/update.md"
 }
