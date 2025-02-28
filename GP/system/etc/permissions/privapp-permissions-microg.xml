@@ -35,22 +35,22 @@
     </privapp-permissions>
 
     <privapp-permissions package="com.android.vending">
-		<permission name="com.android.vending.permission.C2D_MESSAGE" android:protectionLevel="signature"/>
-		<permission name="com.android.vending.billing.IN_APP_NOTIFY.permission.C2D_MESSAGE" android:protectionLevel="signature"/>
-		<permission name="com.android.vending.billing.BILLING_ACCOUNT_SERVICE" android:protectionLevel="signatureOrSystem"/>
-		<permission name="com.android.vending.billing.ADD_CREDIT_CARD" android:protectionLevel="signatureOrSystem"/>
-		<permission name="com.android.vending.BIOAUTH_CONSENT" android:protectionLevel="signature"/>
-		<permission name="com.android.vending.TOS_ACKED" android:protectionLevel="signatureOrSystem"/>
+		<permission name="com.android.vending.permission.C2D_MESSAGE"/>
+		<permission name="com.android.vending.billing.IN_APP_NOTIFY.permission.C2D_MESSAGE"/>
+		<permission name="com.android.vending.billing.BILLING_ACCOUNT_SERVICE"/>
+		<permission name="com.android.vending.billing.ADD_CREDIT_CARD"/>
+		<permission name="com.android.vending.BIOAUTH_CONSENT"/>
+		<permission name="com.android.vending.TOS_ACKED"/>
 		<permission name="com.google.android.finsky.permission.DSE"/>
 		<permission name="com.android.vending.setup.PLAY_SETUP_SERVICE"/>
-		<permission name="com.google.android.finsky.permission.GEARHEAD_SERVICE" android:protectionLevel="signatureOrSystem"/>
-		<permission name="com.google.android.vending.verifier.ACCESS_VERIFIER" android:protectionLevel="signature"/>
-		<permission name="com.google.android.finsky.permission.INSTANT_APP_STATE" android:protectionLevel="signature"/>
-		<permission name="com.google.android.finsky.permission.ACCESS_INSTANT_APP_NOTIFICATION_ENFORCEMENT" android:protectionLevel="signature"/>
-		<permission name="com.google.android.finsky.permission.INTERNAL_BROADCAST" android:protectionLevel="signature"/>
-		<permission name="com.google.android.finsky.permission.PLAY_BILLING_LIBRARY_BROADCAST" android:protectionLevel="signature"/>
-		<permission name="com.google.android.engage.REQUEST_ENGAGE_DATA" android:protectionLevel="signature"/>
-		<permission name="com.google.android.finsky.permission.DEVELOPER_GROUP_ID_INFO" android:protectionLevel="signature"/>
+		<permission name="com.google.android.finsky.permission.GEARHEAD_SERVICE"/>
+		<permission name="com.google.android.vending.verifier.ACCESS_VERIFIER"/>
+		<permission name="com.google.android.finsky.permission.INSTANT_APP_STATE"/>
+		<permission name="com.google.android.finsky.permission.ACCESS_INSTANT_APP_NOTIFICATION_ENFORCEMENT"/>
+		<permission name="com.google.android.finsky.permission.INTERNAL_BROADCAST"/>
+		<permission name="com.google.android.finsky.permission.PLAY_BILLING_LIBRARY_BROADCAST"/>
+		<permission name="com.google.android.engage.REQUEST_ENGAGE_DATA"/>
+		<permission name="com.google.android.finsky.permission.DEVELOPER_GROUP_ID_INFO"/>
 	</privapp-permissions>
 
     <privapp-permissions package="com.looker.droidify">
