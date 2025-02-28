@@ -8,8 +8,6 @@ set_perm $MODPATH/system/app/ServicesFrameworkProxy/ServicesFrameworkProxy.apk 0
 set_perm $MODPATH/system/priv-app/Droid-ify/Drset_per.apk 0 0 0644
 set_perm $MODPATH/system/priv-app/microGCompanion/microGCompanion.apk 0 0 0644
 set_perm $MODPATH/system/priv-app/microGServices/microGServices.apk 0 0 0644
-set_perm $MODPATH/system/product/overlay/microGOverlay/microGOverlay.apk 0 0 0644
-set_perm $MODPATH/system/product/overlay/PlayStoreOverlay/PlayStoreOverlay.apk 0 0 0644
 set_perm $MODPATH/system/framework/com.google.android.maps.jar 0 0 0644
 
 set_perm $MODPATH/service.sh 0 0 0755

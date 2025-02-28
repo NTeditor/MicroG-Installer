@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<exceptions>
+    <exception package="com.google.android.gms">
+        <permission name="android.permission.ACCESS_BACKGROUND_LOCATION" fixed="false"/>
+        <permission name="android.permission.ACCESS_COARSE_LOCATION" fixed="false"/>
+        <permission name="android.permission.ACCESS_FINE_LOCATION" fixed="false"/>
+        <permission name="android.permission.BLUETOOTH_ADVERTISE" fixed="false"/>
+        <permission name="android.permission.BLUETOOTH_CONNECT" fixed="false"/>
+        <permission name="android.permission.BLUETOOTH_SCAN" fixed="false"/>
+        <permission name="android.permission.BODY_SENSORS" fixed="false"/>
+        <permission name="android.permission.BODY_SENSORS_BACKGROUND" fixed="false"/>
+        <permission name="android.permission.CHANGE_DEVICE_IDLE_TEMP_WHITELIST" fixed="false"/>
+		<permission name="android.permission.FAKE_PACKAGE_SIGNATURE" fixed="false"/>
+		<permission name="android.permission.GET_ACCOUNTS" fixed="false"/>
+		<permission name="android.permission.INSTALL_LOCATION_PROVIDER" fixed="false"/>
+		<permission name="android.permission.LOCATION_HARDWARE" fixed="false"/>
+		<permission name="android.permission.MANAGE_USB" fixed="false"/>
+		<permission name="android.permission.MODIFY_PHONE_STATE" fixed="false"/>
+		<permission name="android.permission.NETWORK_SCAN" fixed="false"/>
+		<permission name="android.permission.POST_NOTIFICATIONS" fixed="false"/>
+		<permission name="android.permission.READ_CONTACTS" fixed="false"/>
+		<permission name="android.permission.READ_EXTERNAL_STORAGE" fixed="false"/>
+		<permission name="android.permission.READ_MEDIA_AUDIO" fixed="false"/>
+		<permission name="android.permission.READ_MEDIA_IMAGES" fixed="false"/>
+		<permission name="android.permission.READ_MEDIA_VIDEO" fixed="false"/>
+		<permission name="android.permission.READ_MEDIA_VISUAL_USER_SELECTED" fixed="false"/>
+		<permission name="android.permission.READ_PHONE_STATE" fixed="false"/>
+		<permission name="android.permission.RECEIVE_SMS" fixed="false"/>
+		<permission name="android.permission.START_ACTIVITIES_FROM_BACKGROUND" fixed="false"/>
+		<permission name="android.permission.SYSTEM_ALERT_WINDOW" fixed="false"/>
+		<permission name="android.permission.UPDATE_APP_OPS_STATS" fixed="false"/>
+		<permission name="android.permission.UPDATE_DEVICE_STATS" fixed="false"/>
+		<permission name="android.permission.WATCH_APPOPS" fixed="false"/>
+		<permission name="android.permission.WRITE_EXTERNAL_STORAGE" fixed="false"/>
+    </exception>
+
+    <exception package="com.android.vending">
+		<permission name="android.permission.ACCESS_COARSE_LOCATION" fixed="false"/>
+		<permission name="android.permission.FAKE_PACKAGE_SIGNATURE" fixed="false"/>
+		<permission name="android.permission.POST_NOTIFICATIONS" fixed="false"/>
+		<permission name="android.permission.INTERNET" fixed="false"/>
+		<permission name="android.permission.ACCESS_NETWORK_STATE" fixed="false"/>
+    </exception>
+
+	<exception package="com.google.android.gsf">
+        <permission name="android.permission.POST_NOTIFICATIONS" fixed="false"/>
+    </exception>
+	
+	<exception package="com.looker.droidify">
+        <permission name="android.permission.ACCESS_NETWORK_STATE" fixed="false"/>
+		<permission name="android.permission.ENFORCE_UPDATE_OWNERSHIP" fixed="false"/>
+		<permission name="android.permission.FOREGROUND_SERVICE_DATA_SYNC" fixed="false"/>
+		<permission name="android.permission.INTERNET" fixed="false"/>
+		<permission name="android.permission.RECEIVE_BOOT_COMPLETED" fixed="false"/>
+		<permission name="android.permission.REQUEST_DELETE_PACKAGES" fixed="false"/>
+		<permission name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" fixed="false"/>
+		<permission name="android.permission.RUN_USER_INITIATED_JOBS" fixed="false"/>
+		<permission name="aandroid.permission.UPDATE_PACKAGES_WITHOUT_USER_ACTION" fixed="false"/>
+		<permission name="android.permission.WAKE_LOCK" fixed="false"/>
+		<permission name="android.permission.REQUEST_INSTALL_PACKAGES" fixed="false"/>
+		<permission name="android.permission.POST_NOTIFICATIONS" fixed="false"/>
+    </exception>
+</exceptions>
