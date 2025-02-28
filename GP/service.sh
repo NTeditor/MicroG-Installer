@@ -6,10 +6,10 @@ resetprop -w sys.boot_completed 0
 
 # Установка MicroG как пользовательское приложение
 su -c pm install $MODPATH/system/priv-app/microGServices/microGServices.apk
-su -c pm install $MODPATH/system/priv-app/microGCompanion/microGCompanion.apk
+su -c pm install $MODPATH/system/priv-app/Phonesky/Phonesky.apk
 su -c pm install --bypass-low-target-sdk-block $MODPATH/system/app/ServicesFrameworkProxy/ServicesFrameworkProxy.apk
 
-# Установка разришений для microG Companion (Возможны ощибки в консоли)
+# Установка разришений для Google Play (Возможны ощибки в консоли)
 su -c pm grant com.android.vending "android.permission.ACCESS_COARSE_LOCATION"
 su -c pm grant com.android.vending "android.permission.FAKE_PACKAGE_SIGNATURE"
 su -c pm grant com.android.vending "android.permission.POST_NOTIFICATIONS"
