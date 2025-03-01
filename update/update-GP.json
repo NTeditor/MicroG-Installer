@@ -1,0 +1,6 @@
+{
+	"version": "v1.1",
+	"versionCode": 11000,
+	"zipUrl": "https://github.com/NTeditor/MicroG-Installer/releases/latest/download/GP.zip",
+	"changelog": "https://github.com/NTeditor/MicroG-Installer/raw/refs/heads/master/update/update.md"
+}
