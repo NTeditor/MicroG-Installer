@@ -1,1 +1,8 @@
 *.zip
+*.pub
+*.pem
+*.env
+*.log
+*.DS_Store
+*.thumbs.db
+*.code_workspace

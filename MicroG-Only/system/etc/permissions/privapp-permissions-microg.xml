@@ -51,7 +51,7 @@
 		<permission name="android.permission.REQUEST_DELETE_PACKAGES"/>
 		<permission name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"/>
 		<permission name="android.permission.RUN_USER_INITIATED_JOBS"/>
-		<permission name="aandroid.permission.UPDATE_PACKAGES_WITHOUT_USER_ACTION"/>
+		<permission name="android.permission.UPDATE_PACKAGES_WITHOUT_USER_ACTION"/>
 		<permission name="android.permission.WAKE_LOCK"/>
 		<permission name="android.permission.REQUEST_INSTALL_PACKAGES"/>
 		<permission name="android.permission.POST_NOTIFICATIONS"/>
