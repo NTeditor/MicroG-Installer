@@ -1,22 +1,21 @@
 MODPATH="/data/adb/modules/nteditor_microg"
 
 
-# Ожижидание загрузки устроиства...
+# Ожидание загрузки устроиства...
 resetprop -w sys.boot_completed 0
 
 # Установка MicroG как пользовательское приложение
 su -c pm install $MODPATH/system/priv-app/microGServices/microGServices.apk
 su -c pm install $MODPATH/system/priv-app/microGCompanion/microGCompanion.apk
-su -c pm install --bypass-low-target-sdk-block $MODPATH/system/app/ServicesFrameworkProxy/ServicesFrameworkProxy.apk
 
-# Установка разришений для microG Companion (Возможны ощибки в консоли)
+# Установка разрешений для microG Companion (Возможны ошибки в консоли)
 su -c pm grant com.android.vending "android.permission.ACCESS_COARSE_LOCATION"
 su -c pm grant com.android.vending "android.permission.FAKE_PACKAGE_SIGNATURE"
 su -c pm grant com.android.vending "android.permission.POST_NOTIFICATIONS"
 su -c pm grant com.android.vending "android.permission.INTERNET"
 su -c pm grant com.android.vending "android.permission.ACCESS_NETWORK_STATE"
 
-# Установка разришений для microG Services (Возможны ощибки в консоли)
+# Установка разрешений для microG Services (Возможны ошибки в консоли)
 su -c pm grant com.google.android.gms "android.permission.ACCESS_BACKGROUND_LOCATION"
 su -c pm grant com.google.android.gms "android.permission.ACCESS_COARSE_LOCATION"
 su -c pm grant com.google.android.gms "android.permission.ACCESS_FINE_LOCATION"
@@ -49,7 +48,7 @@ su -c pm grant com.google.android.gms "android.permission.UPDATE_DEVICE_STATS"
 su -c pm grant com.google.android.gms "android.permission.WATCH_APPOPS"
 su -c pm grant com.google.android.gms "android.permission.WRITE_EXTERNAL_STORAGE"
 
-# Установка разришений для Services Framework Proxy
+# Установка разрешений для Services Framework Proxy
 su -c pm grant com.google.android.gsf "android.permission.POST_NOTIFICATIONS"
 
 # Отключение автозапуска service.sh
