@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <exceptions>
-    <exception package="com.google.android.gms">
+  <exception package="com.google.android.gms">
 		<permission name="android.permission.READ_DEVICE_CONFIG" fixed="false"/>
 		<permission name="android.permission.WRITE_DEVICE_CONFIG" fixed="false"/>
 		<permission name="com.google.android.finsky.permission.DSE" fixed="false"/>
@@ -101,7 +101,7 @@
 		<permission name="com.htc.launcher.permission.READ_SETTINGS" fixed="false"/>
 		<permission name="com.htc.launcher.permission.UPDATE_SHORTCUT" fixed="false"/>
 		<permission name="com.sonyericsson.home.permission.BROADCAST_BADGE" fixed="false"/>
-		<permission name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" fixed="false"/>
+		<permission name="com.snowmobile.home.permission.PROVIDER_INSERT_BADGE" fixed="false"/>
 		<permission name="com.anddoes.launcher.permission.UPDATE_COUNT" fixed="false"/>
 		<permission name="com.majeur.launcher.permission.UPDATE_BADGE" fixed="false"/>
 		<permission name="com.huawei.android.launcher.permission.CHANGE_BADGE" fixed="false"/>
@@ -136,22 +136,22 @@
 		<permission name="com.google.android.setupwizard.READ_DEVICE_ORIGIN_FIRST_PARTY" fixed="false"/>
 		<permission name="com.google.android.engage.REQUEST_ENGAGE_DATA" fixed="false"/>
 		<permission name="android.permission.QUERY_ADVANCED_PROTECTION_MODE" fixed="false"/>
-    </exception>
+  </exception>
 
-    <exception package="com.android.vending">
+  <exception package="com.android.vending">
 		<permission name="android.permission.ACCESS_COARSE_LOCATION" fixed="false"/>
 		<permission name="android.permission.FAKE_PACKAGE_SIGNATURE" fixed="false"/>
 		<permission name="android.permission.POST_NOTIFICATIONS" fixed="false"/>
 		<permission name="android.permission.INTERNET" fixed="false"/>
 		<permission name="android.permission.ACCESS_NETWORK_STATE" fixed="false"/>
-    </exception>
+  </exception>
 
 	<exception package="com.google.android.gsf">
-        <permission name="android.permission.POST_NOTIFICATIONS" fixed="false"/>
-    </exception>
+    <permission name="android.permission.POST_NOTIFICATIONS" fixed="false"/>
+  </exception>
 	
 	<exception package="com.looker.droidify">
-        <permission name="android.permission.ACCESS_NETWORK_STATE" fixed="false"/>
+  	<permission name="android.permission.ACCESS_NETWORK_STATE" fixed="false"/>
 		<permission name="android.permission.ENFORCE_UPDATE_OWNERSHIP" fixed="false"/>
 		<permission name="android.permission.FOREGROUND_SERVICE_DATA_SYNC" fixed="false"/>
 		<permission name="android.permission.INTERNET" fixed="false"/>
@@ -159,9 +159,9 @@
 		<permission name="android.permission.REQUEST_DELETE_PACKAGES" fixed="false"/>
 		<permission name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" fixed="false"/>
 		<permission name="android.permission.RUN_USER_INITIATED_JOBS" fixed="false"/>
-		<permission name="aandroid.permission.UPDATE_PACKAGES_WITHOUT_USER_ACTION" fixed="false"/>
+		<permission name="android.permission.UPDATE_PACKAGES_WITHOUT_USER_ACTION" fixed="false"/>
 		<permission name="android.permission.WAKE_LOCK" fixed="false"/>
 		<permission name="android.permission.REQUEST_INSTALL_PACKAGES" fixed="false"/>
 		<permission name="android.permission.POST_NOTIFICATIONS" fixed="false"/>
-    </exception>
+  </exception>
 </exceptions>

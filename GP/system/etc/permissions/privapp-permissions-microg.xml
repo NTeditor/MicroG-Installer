@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <permissions>
-    <privapp-permissions package="com.google.android.gms">
-        <permission name="android.permission.ACCESS_BACKGROUND_LOCATION"/>
-        <permission name="android.permission.ACCESS_COARSE_LOCATION"/>
-        <permission name="android.permission.ACCESS_FINE_LOCATION"/>
-        <permission name="android.permission.BLUETOOTH_ADVERTISE"/>
-        <permission name="android.permission.BLUETOOTH_CONNECT"/>
-        <permission name="android.permission.BLUETOOTH_SCAN"/>
-        <permission name="android.permission.BODY_SENSORS"/>
-        <permission name="android.permission.BODY_SENSORS_BACKGROUND"/>
-        <permission name="android.permission.CHANGE_DEVICE_IDLE_TEMP_WHITELIST"/>
+  <privapp-permissions package="com.google.android.gms">
+    <permission name="android.permission.ACCESS_BACKGROUND_LOCATION"/>
+    <permission name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <permission name="android.permission.ACCESS_FINE_LOCATION"/>
+    <permission name="android.permission.BLUETOOTH_ADVERTISE"/>
+    <permission name="android.permission.BLUETOOTH_CONNECT"/>
+    <permission name="android.permission.BLUETOOTH_SCAN"/>
+    <permission name="android.permission.BODY_SENSORS"/>
+    <permission name="android.permission.BODY_SENSORS_BACKGROUND"/>
+    <permission name="android.permission.CHANGE_DEVICE_IDLE_TEMP_WHITELIST"/>
 		<permission name="android.permission.FAKE_PACKAGE_SIGNATURE"/>
 		<permission name="android.permission.GET_ACCOUNTS"/>
 		<permission name="android.permission.INSTALL_LOCATION_PROVIDER"/>
@@ -32,9 +32,9 @@
 		<permission name="android.permission.UPDATE_DEVICE_STATS"/>
 		<permission name="android.permission.WATCH_APPOPS"/>
 		<permission name="android.permission.WRITE_EXTERNAL_STORAGE"/>
-    </privapp-permissions>
+  </privapp-permissions>
 
-    <privapp-permissions package="com.android.vending">
+  <privapp-permissions package="com.android.vending">
 		<permission name="com.android.vending.permission.C2D_MESSAGE"/>
 		<permission name="com.android.vending.billing.IN_APP_NOTIFY.permission.C2D_MESSAGE"/>
 		<permission name="com.android.vending.billing.BILLING_ACCOUNT_SERVICE"/>
@@ -53,8 +53,8 @@
 		<permission name="com.google.android.finsky.permission.DEVELOPER_GROUP_ID_INFO"/>
 	</privapp-permissions>
 
-    <privapp-permissions package="com.looker.droidify">
-        <permission name="android.permission.ACCESS_NETWORK_STATE"/>
+  <privapp-permissions package="com.looker.droidify">
+    <permission name="android.permission.ACCESS_NETWORK_STATE"/>
 		<permission name="android.permission.ENFORCE_UPDATE_OWNERSHIP"/>
 		<permission name="android.permission.FOREGROUND_SERVICE_DATA_SYNC"/>
 		<permission name="android.permission.INTERNET"/>
@@ -62,9 +62,9 @@
 		<permission name="android.permission.REQUEST_DELETE_PACKAGES"/>
 		<permission name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"/>
 		<permission name="android.permission.RUN_USER_INITIATED_JOBS"/>
-		<permission name="aandroid.permission.UPDATE_PACKAGES_WITHOUT_USER_ACTION"/>
+		<permission name="android.permission.UPDATE_PACKAGES_WITHOUT_USER_ACTION"/>
 		<permission name="android.permission.WAKE_LOCK"/>
 		<permission name="android.permission.REQUEST_INSTALL_PACKAGES"/>
 		<permission name="android.permission.POST_NOTIFICATIONS"/>
-    </privapp-permissions>
+  </privapp-permissions>
 </permissions>
